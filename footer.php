@@ -21,19 +21,30 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<div class="row">
 
-			<div class="col-md-12">
-
-				<footer class="site-footer" id="colophon">
-
-					<div class="site-info">
-
-						<?php understrap_site_info(); ?>
-
-					</div><!-- .site-info -->
-
-				</footer><!-- #colophon -->
-
+			<div class="col-md-4">
+				<?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
+					<div class="sidebar-one">
+						<?php dynamic_sidebar( 'footer-1' ); ?>
+					</div>
+				<?php endif; ?>
 			</div><!--col end -->
+
+			<div class="col-md-4">
+				<?php if ( is_active_sidebar( 'footer-2' ) ) : ?>
+					<div class="sidebar-two">
+						<?php dynamic_sidebar( 'footer-2' ); ?>
+					</div>
+				<?php endif; ?>
+			</div><!--col end -->
+
+			<div class="col-md-4">
+				<?php if ( is_active_sidebar( 'footer-3' ) ) : ?>
+					<div class="sidebar-three">
+						<?php dynamic_sidebar( 'footer-3' ); ?>
+					</div>
+				<?php endif; ?>
+			</div><!--col end -->
+
 
 		</div><!-- row end -->
 

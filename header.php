@@ -83,4 +83,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		</nav><!-- .site-navigation -->
 
+		<div class="page-banner-hero hasbg" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="hero-content">
+							<a href="">Button</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
 	</div><!-- #wrapper-navbar end -->

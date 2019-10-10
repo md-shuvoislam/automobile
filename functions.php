@@ -20,6 +20,10 @@ function theme_enqueue_styles() {
 	// Get the theme data
 	$the_theme = wp_get_theme();
     wp_enqueue_style( 'child-understrap-styles', get_stylesheet_directory_uri() . '/css/child-theme.min.css', array(), $the_theme->get( 'Version' ) );
+
+    wp_enqueue_style( 'theme-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:100,100i,300,400,400i,500,600,600i,700,700i,800,900&display=swap');
+
+
     wp_enqueue_script( 'jquery');
     wp_enqueue_script( 'child-understrap-scripts', get_stylesheet_directory_uri() . '/js/child-theme.min.js', array(), $the_theme->get( 'Version' ), true );
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -55,8 +59,8 @@ function automobile_theme_footer_widget() {
         'name'          => __( 'Footer One', 'understrap-child' ),
         'id'            => 'footer-1',
         'description'   => __( 'Widgets in this area will be shown on all posts and pages.', 'understrap-child' ),
-        'before_widget' => '<li id="%1$s" class="widget %2$s">',
-        'after_widget'  => '</li>',
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
         'before_title'  => '<h2 classwidgettitle">',
         'after_title'   => '</h2>',
     ) );
@@ -64,8 +68,8 @@ function automobile_theme_footer_widget() {
         'name'          => __( 'Footer Two', 'understrap-child' ),
         'id'            => 'footer-2',
         'description'   => __( 'Widgets in this area will be shown on all posts and pages.', 'understrap-child' ),
-        'before_widget' => '<li id="%1$s" class="widget %2$s">',
-        'after_widget'  => '</li>',
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
         'before_title'  => '<h2 classwidgettitle">',
         'after_title'   => '</h2>',
     ) );
@@ -73,8 +77,8 @@ function automobile_theme_footer_widget() {
         'name'          => __( 'Footer Three', 'understrap-child' ),
         'id'            => 'footer-3',
         'description'   => __( 'Widgets in this area will be shown on all posts and pages.', 'understrap-child' ),
-        'before_widget' => '<li id="%1$s" class="widget %2$s">',
-        'after_widget'  => '</li>',
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
         'before_title'  => '<h2 classwidgettitle">',
         'after_title'   => '</h2>',
     ) );

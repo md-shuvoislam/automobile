@@ -88,12 +88,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<div class="hero-content">
-							<a href="">Button</a>
+							<a href="" class="hero-btn">Unsere Welt der Automotive</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
-
-	</div><!-- #wrapper-navbar end -->
+</div><!-- #wrapper-navbar end -->

@@ -92,6 +92,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 					</div>
 				</div>
+				
+				<!-- icon for section scroll -->
+				<div class="hero-content-bottom">
+					<a href="#hoem"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home-icon.png" alt=""></a>
+				</div>
+
 			</div>
 		</div>
 </div><!-- #wrapper-navbar end -->

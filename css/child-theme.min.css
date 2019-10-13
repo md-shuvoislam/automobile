@@ -12,11 +12,179 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:100,100i,300,400,400i,500,600,600i,700,700i,800,900&display=swap');
 
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
-font-family: 'Raleway', sans-serif;
 
 header.entry-header {
     display: none;
+}
+.page-banner-hero {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+}
+.bg-primary .row {
+	width: 100%;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #ffff;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+a.hero-btn {
+	text-decoration: none;
+	color: #707070;
+	background: RGB(255, 255, 255, .9);
+	font-size: 40px;
+	font-weight: 400;
+	display: inline-block;
+	padding: 25px 25px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#wrapper-footer {
+  background: #2E2D2C;
+  color: #fff;
+}
+#wrapper-footer h2 {
+	font-size: 32px;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+#wrapper-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#wrapper-footer ul li a {
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+}
+#wrapper-footer ul li {
+  font-size: 22px;
+}
+#wrapper-footer i {
+	font-size: 28px;
+	margin-right: 10px;
+	background: #fff;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	color: #2e2d2c;
+	border-radius: 50px;
+}
+.home-middle-section .col-md-6 {
+	padding: 0;
+}
+#hoem {
+	padding: 0;
+}
+.box-content {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+.single-page-box {
+	position: relative;
+	overflow: hidden;
+}
+.single-page-box::after {
+	content: "";
+	background-image: url('http://localhost/automobile/wp-content/uploads/2019/10/arrow.png');
+	width: 41px;
+	height: 28px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	right: 30px;
+	top: 30px;
+}
+.single-page-box img {
+	width: 100%;
+	transition: all .2s ease-in-out;
+	overflow: hidden;
+}
+.single-page-box img:hover {
+  transform: scale(1.1);
+}
+.box-content h3 {
+	font-size: 32px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.box-content p {
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.home-newslatter-area h2 {
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.home-newslatter-area {
+	padding: 100px 0;
+}
+.home-newslatter-area p {
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #2E2D2C;
+	width: 50%;
+	display: table;
+	margin: 0 auto;
+	line-height: 30px;
+}
+.bg-primary {
+	background-color: transparent !important;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+}
+.page-banner-hero .container > .row:first-child {
+	display: table-cell;
+	vertical-align: middle;
+	clear: both;
+	width: 100%;
+}
+.page-banner-hero .container {
+	height: 100%;
+	display: table;
+	width: 100%;
+}
+.hero-content-bottom {
+	position: absolute;
+	bottom: 38px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.mc4wp-form-fields input[type="submit"] {
+	display: none;
+}
+.mc4wp-form-fields input[type="email"] {
+	background: #2E2D2C;
+	color: #F4F4F4;
+	border: none;
+	max-width: 100%;
+	width: 500px;
+	padding: 10px;
+	font-size: 22px;
+	opacity: 1;
+	margin-top: 40px;
+}
+.sidebar-three ul li a {
+	text-transform: uppercase;
 }

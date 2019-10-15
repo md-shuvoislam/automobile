@@ -230,3 +230,118 @@ a.hero-btn {
 	background-color: #fff;
 	padding: 40px 80px;
 }
+/* contact page tabs section */
+.contact-box-area {
+	background-color: #2E2D2C;
+	padding: 100px 0;
+}
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+    width: 100%;
+}
+.nav-item h3 {
+	color: #707070;
+	font-size: 28px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.nav-item i {
+	font-size: 40px;
+	color: #707070;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+	border: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: #fff;
+	background-color: transparent;
+	border: none;
+}
+.nav-item.active i, .nav-item.active h3{
+	color: #fff;
+}
+.tabs-content {
+	text-align: center;
+	background-color: #F0F0F0;
+	margin-bottom: 40px;
+}
+.tab-detail-title {
+	font-size: 32px;
+	color: #2E2D2C;
+	text-transform: uppercase;
+	padding-bottom: 80px;
+}
+.tab-content p {
+	font-size: 22px;
+	color: #2E2D2C;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 30px;
+	margin: 0;
+}
+.tab-content i {
+	font-size: 22px;
+	color: #2E2D2C;
+}
+.tab-content #home {
+	padding: 100px 0;
+}
+.tab-content #profile {
+	padding-top: 100px;
+	padding-bottom: 80px;
+	text-align: left;
+}
+.tab-content #profile .tab-detail-title{
+	text-align: center;
+}
+span.wpcf7-list-item {
+	display: inline-block;
+	margin: 0;
+}
+.form-control, .wpcf7 .wpcf7-validation-errors, .wpcf7 input[type="color"], .wpcf7 input[type="date"], .wpcf7 input[type="datetime-local"],
+.wpcf7 input[type="datetime"], .wpcf7 input[type="email"], .wpcf7 input[type="file"], .wpcf7 input[type="month"], 
+.wpcf7 input[type="number"], .wpcf7 input[type="range"], .wpcf7 input[type="search"], .wpcf7 input[type="submit"], 
+.wpcf7 input[type="tel"], .wpcf7 input[type="text"], .wpcf7 input[type="time"], .wpcf7 input[type="url"], 
+.wpcf7 input[type="week"], .wpcf7 select{
+	display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: .375rem .75rem;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #F4F4F4;
+	background-color: #2E2D2C;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: none;
+	-webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+	transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+	text-transform: uppercase;
+}
+.wpcf7 textarea {
+	background-color: #2E2D2C;
+	font-size: 22px;
+	border-radius: none;
+	text-transform: uppercase;
+}
+.wpcf7 .wpcf7-validation-errors{
+	height: auto;
+}
+div.wpcf7-response-output {
+	margin: 0;
+}
+::placeholder {
+  color: #F4F4F4 !important;
+  opacity: 1; 
+}
+
+:-ms-input-placeholder {
+  color: #F4F4F4 !important;
+}
+
+::-ms-input-placeholder {
+  color: #F4F4F4 !important;
+}

@@ -50,6 +50,7 @@ a.hero-btn {
 #wrapper-footer {
   background: #2E2D2C;
   color: #fff;
+  padding: 100px 0;
 }
 #wrapper-footer h2 {
 	font-size: 32px;
@@ -136,6 +137,7 @@ a.hero-btn {
 }
 .home-newslatter-area {
 	padding: 100px 0;
+	background: #F0F0F0;
 }
 .home-newslatter-area p {
 	font-size: 22px;
@@ -187,4 +189,44 @@ a.hero-btn {
 }
 .sidebar-three ul li a {
 	text-transform: uppercase;
+}
+.counter-area {
+	background: #2E2D2C;
+}
+#wpsm_counter_b_row_46 .wpsm_counterbox .wpsm_count-icon {
+	display: none !important;
+}
+#wpsm_counter_b_row_46 .wpsm_counterbox {
+	margin-top: 80px !important;
+	margin-bottom: 80px !important;
+}
+#wpsm_counter_b_row_46 .wpsm_counterbox .wpsm_number {
+	font-family: 'Raleway', sans-serif !important;
+	font-weight: 600 !important;
+}
+#wpsm_counter_b_row_46 .wpsm_counterbox .wpsm_count-title {
+	margin-top: 20px;
+	font-family: 'Raleway', sans-serif !important;
+	font-weight: 600 !important;
+	text-transform: uppercase;
+}
+.about-middle-section {
+	padding: 80px 0;
+	background: #F0F0F0;
+}
+.about-company-text h3 {
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 50px;
+	color: #2E2D2C;
+}
+.about-company-text p {
+	font-size: 22px;
+	color: #2E2D2C;
+	line-height: 30px;
+}
+.about-company-text{
+	background-color: #fff;
+	padding: 40px 80px;
 }

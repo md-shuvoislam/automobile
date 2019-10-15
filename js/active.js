@@ -9,9 +9,20 @@
 
             $("body, html").animate({
                 scrollTop: position
-            }1000);
+            });
         });
 
+    });
+
+    $(document).ready(function(){
+
+        $(".slide-up").click(function(e){
+            $(".box").slideUp();
+            
+        });
+        $(".slide-down").click(function(){
+            $(".box").slideDown();
+        });
     });
 
 }(jQuery));

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: About Us
+ * Template Name: Cars
  *
  * Template for displaying a page without sidebar even if a sidebar widget is published.
  *
@@ -40,18 +40,56 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</div>
 	</div>
 
-
-	<div class="counter-area">
-		<div class="container">
+	<div class="cars-page-contact">
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<a href="" class="boxes">
+						<div class="single-page-box car-box-img">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cars-page-contact-bg.jpg" alt="">
+						</div>
+						<div class="car-box-content">
+							<i class="fa fa-hand-pointer-o"></i>
+							<h3>Wunschauto <br> Auswählen</h3>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="" class="boxes">
+						<div class="single-page-box car-box-img">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cars-page-contact-bg.jpg" alt="">
+						</div>
+						<div class="car-box-content">
+							<i class="fa fa-envelope"></i>
+							<h3>Kontakt <br> Aufnehmen</h3>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="" class="boxes">
+						<div class="single-page-box car-box-img">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cars-page-contact-bg.jpg" alt="">
+						</div>
+						<div class="car-box-content">
+							<i class="fa fa-car"></i>
+							<h3>Neuen Wagen <br> Direkt liefern lassen</h3>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="cars-area">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<?php echo do_shortcode('[COUNTER_NUMBER id=46]'); ?>
+					<?php echo do_shortcode('[WPCS_archive]'); ?>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<?php echo do_shortcode('[modula id="68"]'); ?>
 
 
 	<div class="home-newslatter-area about-newslatter">

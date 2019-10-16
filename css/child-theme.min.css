@@ -113,11 +113,15 @@ a.hero-btn {
 }
 .single-page-box img {
 	width: 100%;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 	overflow: hidden;
 }
 .single-page-box img:hover {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .box-content h3 {
 	font-size: 32px;
@@ -317,6 +321,7 @@ span.wpcf7-list-item {
 	border-radius: none;
 	-webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 	transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+	-o-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 	text-transform: uppercase;
@@ -333,6 +338,22 @@ span.wpcf7-list-item {
 div.wpcf7-response-output {
 	margin: 0;
 }
+::-webkit-input-placeholder {
+  color: #F4F4F4 !important;
+  opacity: 1; 
+}
+::-moz-placeholder {
+  color: #F4F4F4 !important;
+  opacity: 1; 
+}
+:-ms-input-placeholder {
+  color: #F4F4F4 !important;
+  opacity: 1; 
+}
+::-ms-input-placeholder {
+  color: #F4F4F4 !important;
+  opacity: 1; 
+}
 ::placeholder {
   color: #F4F4F4 !important;
   opacity: 1; 
@@ -344,4 +365,66 @@ div.wpcf7-response-output {
 
 ::-ms-input-placeholder {
   color: #F4F4F4 !important;
+}
+.tab-content #home .col-md-3 {
+	border-right: 1px solid #707070;
+}
+.tab-content #home .col-md-3:last-child {
+    border-right: none;
+}
+.wpcf7 input:focus{
+	background-color: #2E2D2C;
+}
+.form-control:focus, .wpcf7 .wpcf7-validation-errors:focus, .wpcf7 input:focus[type="color"], .wpcf7 input:focus[type="date"], 
+.wpcf7 input:focus[type="datetime-local"], .wpcf7 input:focus[type="datetime"], .wpcf7 input:focus[type="email"], 
+.wpcf7 input:focus[type="file"], .wpcf7 input:focus[type="month"], .wpcf7 input:focus[type="number"], 
+.wpcf7 input:focus[type="range"], .wpcf7 input:focus[type="search"], .wpcf7 input:focus[type="submit"], 
+.wpcf7 input:focus[type="tel"], .wpcf7 input:focus[type="text"], .wpcf7 input:focus[type="time"], 
+.wpcf7 input:focus[type="url"], .wpcf7 input:focus[type="week"], .wpcf7 select:focus, .wpcf7 textarea:focus {
+	color: #495057;
+	background-color: #2E2D2C;
+	border-color: #e30dff;
+	outline: 0;
+	-webkit-box-shadow: 0 0 0 .2rem rgba(124,0,140,.25);
+	box-shadow: 0 0 0 .2rem rgba(124,0,140,.25);
+}.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}
+.single-page-box.car-box-img::after {
+	display: none;
+}
+.car-box-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 38%;
+}
+a.boxes {
+	text-decoration: none;
+}
+.car-box-content h3 {
+	font-size: 35px;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 40px;
+}
+.car-box-content i {
+	color: #fff;
+	font-size: 60px;
+	margin-bottom: 40px;
+}
+.cars-page-contact .col-md-4 {
+	padding: 0;
 }

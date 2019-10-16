@@ -31,7 +31,7 @@ header.entry-header {
 }
 .navbar-dark .navbar-nav .nav-link {
 	color: #ffff;
-	font-size: 30px;
+	font-size: 22px;
 	text-transform: uppercase;
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
@@ -40,11 +40,12 @@ a.hero-btn {
 	text-decoration: none;
 	color: #707070;
 	background: RGB(255, 255, 255, .9);
-	font-size: 40px;
-	font-weight: 400;
+	font-size: 28px;
+	font-weight: 600;
 	display: inline-block;
-	padding: 25px 25px;
+	padding: 15px;
 	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
 }
 
 #wrapper-footer {
@@ -53,10 +54,11 @@ a.hero-btn {
   padding: 100px 0;
 }
 #wrapper-footer h2 {
-	font-size: 32px;
-	font-weight: 400;
+	font-size: 28px;
+	font-weight: 600;
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 #wrapper-footer ul {
   margin: 0;
@@ -70,19 +72,32 @@ a.hero-btn {
 }
 #wrapper-footer ul li {
   font-size: 22px;
+  margin-bottom: 10px;
+
 }
 #wrapper-footer i {
 	font-size: 28px;
 	margin-right: 10px;
 	background: #fff;
-	width: 30px;
-	height: 30px;
+	width: 26px;
+	height: 26px;
 	vertical-align: middle;
 	text-align: center;
-	line-height: 30px;
+	line-height: 26px;
 	font-size: 16px;
 	color: #2e2d2c;
 	border-radius: 50px;
+}
+.sidebar-two, .sidebar-three {
+	margin: 0 auto;
+	display: table;
+}
+
+#wrapper-footer .col-md-4 {
+	border-right: 1px solid #FFFFFF;
+}
+#wrapper-footer .col-md-4:last-child {
+	border-right: 0px solid #FFFFFF;
 }
 .home-middle-section .col-md-6 {
 	padding: 0;
@@ -158,6 +173,7 @@ a.hero-btn {
 	position: absolute;
 	z-index: 1;
 	width: 100%;
+	padding-top: 30px;
 }
 .page-banner-hero .container > .row:first-child {
 	display: table-cell;
@@ -190,6 +206,17 @@ a.hero-btn {
 	font-size: 22px;
 	opacity: 1;
 	margin-top: 40px;
+	font-weight: 300;
+	position: relative;
+}
+.mc4wp-form-fields::after {
+	content: "\f061";
+	font: normal normal normal 14px/1 FontAwesome;
+	position: absolute;
+	color: #f4f4f4;
+	font-size: 22px;
+	bottom: 15px;
+	right: 29%;
 }
 .sidebar-three ul li a {
 	text-transform: uppercase;
@@ -318,7 +345,7 @@ span.wpcf7-list-item {
 	background-color: #2E2D2C;
 	background-clip: padding-box;
 	border: 1px solid #ced4da;
-	border-radius: none;
+	border-radius: 0px !important;
 	-webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 	transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 	-o-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
@@ -331,12 +358,21 @@ span.wpcf7-list-item {
 	font-size: 22px;
 	border-radius: none;
 	text-transform: uppercase;
+	border-radius: 0px !important;
 }
 .wpcf7 .wpcf7-validation-errors{
 	height: auto;
 }
 div.wpcf7-response-output {
 	margin: 0;
+}
+a.checkbox-readmore-link {
+	position: absolute;
+	bottom: 24.2%;
+	right: 24%;
+	color: #272726;
+	font-weight: 700;
+	text-decoration: none;
 }
 ::-webkit-input-placeholder {
   color: #F4F4F4 !important;

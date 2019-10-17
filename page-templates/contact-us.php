@@ -23,14 +23,16 @@
                 <div class="col-md-12">
                     <div class="about-company-text">
                         <h3>Unsere Werte.</h3>
-                        <p>are selling and negotiating now for a long time new high-quality cars. Owing to our long lasting experience in this branch it is possible for us to find the suitable vehicle for you with the best price at any time. <br>
-                            We set great value on <br>
-                            professional advice <br>
-                            experienced personnel <br>
-                            reliable transaction <br>
-                            satisfied customers <br>
-                            If these standards are important for you when buying a car, than you´re right here.
-                        </p>
+                        <p>are selling and negotiating now for a long time new high-quality cars. Owing to our long lasting experience in this branch it is possible for us to find the suitable vehicle for you with the best price at any time.
+
+						We set great value on
+
+						professional advice
+						experienced personnel
+						reliable transaction
+						satisfied customers
+
+						If these standards are important for you when buying a car, than you´re right here.</p>
                     </div>
                 </div>
             </div>
@@ -43,27 +45,27 @@
                     <div class="col-md-4">
                         <li class="nav-item">
                             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
-                                <i class="fa fa-user"></i>
+                            	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/contact-page-user.png" alt="">
                                 <h3>Kontakt <br> Daten</h3>
-                                <i class="fa fa-chevron-down"></i>
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Pfad-5.png" alt="">
                             </a>
                         </li>
                     </div>
                     <div class="col-md-4">
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
-                                <i class="fa fa-envelope-open"></i>
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/contact-page-envalop.png" alt="">
                                 <h3>Kontakt <br> Formular</h3>
-                                <i class="fa fa-chevron-down"></i>
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Pfad-5.png" alt="">
                             </a>
                         </li>
                     </div>
                     <div class="col-md-4">
                         <li class="nav-item">
                             <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">
-                                <i class="fa fa-map-marker"></i>
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/contact-page-map.png" alt="">
                                 <h3>Unser <br> Standort</h3>
-                                <i class="fa fa-chevron-down"></i>
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Pfad-5.png" alt="">
                             </a>
                         </li>
                     </div>

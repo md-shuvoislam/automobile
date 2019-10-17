@@ -24,14 +24,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="col-md-12">
 					<div class="about-company-text">
 						<h3>Unsere Werte.</h3>
-						<p>are selling and negotiating now for a long time new high-quality cars. Owing to our long lasting experience in this branch it is possible for us to find the suitable vehicle for you with the best price at any time. <br>
-						
-						We set great value on <br>
+						<p>are selling and negotiating now for a long time new high-quality cars. Owing to our long lasting experience in this branch it is possible for us to find the suitable vehicle for you with the best price at any time.
 
-						professional advice <br>
-						experienced personnel <br>
-						reliable transaction <br>
-						satisfied customers <br>
+						We set great value on
+
+						professional advice
+						experienced personnel
+						reliable transaction
+						satisfied customers
 
 						If these standards are important for you when buying a car, than you´re right here.</p>
 					</div>
@@ -49,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cars-page-contact-bg.jpg" alt="">
 						</div>
 						<div class="car-box-content">
-							<i class="fa fa-hand-pointer-o"></i>
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/hand2.png" alt="">
 							<h3>Wunschauto <br> Auswählen</h3>
 						</div>
 					</a>
@@ -57,10 +57,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="col-md-4">
 					<a href="" class="boxes">
 						<div class="single-page-box car-box-img">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cars-page-contact-bg.jpg" alt="">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cars-page-contact-bg-2.jpg" alt="">
 						</div>
 						<div class="car-box-content">
-							<i class="fa fa-envelope"></i>
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mail22.png" alt="">
 							<h3>Kontakt <br> Aufnehmen</h3>
 						</div>
 					</a>
@@ -68,10 +68,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="col-md-4">
 					<a href="" class="boxes">
 						<div class="single-page-box car-box-img">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cars-page-contact-bg.jpg" alt="">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cars-page-contact-bg-3.jpg" alt="">
 						</div>
 						<div class="car-box-content">
-							<i class="fa fa-car"></i>
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/car.png" alt="">
 							<h3>Neuen Wagen <br> Direkt liefern lassen</h3>
 						</div>
 					</a>
@@ -96,8 +96,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-md-6">
-					<h2>Unser Newsletter</h2>
-					<p>Mit unserem Newsletter erhalten Sie immer die aktuellen Angebote und Neuigkeiten.</p>
+					<h2>Kontaktformular</h2>
+					<p>Bei Fragen oder Anregungen sind wir für sie jederzeit erreichbar.</p>
 					<?php echo do_shortcode('[mc4wp_form id="41"]'); ?>
 				</div>
 				<div class="col-md-6">

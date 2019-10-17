@@ -88,7 +88,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<div class="hero-content">
-							<a href="" class="hero-btn">Unsere Welt der Automotive</a>
+							<a href="" class="hero-btn"><?php the_title(); ?></a>
 						</div>
 					</div>
 				</div>

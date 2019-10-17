@@ -24,7 +24,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="col-md-6">
 					<a href="" class="boxes">
 						<div class="single-page-box">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/3.jpg" alt="">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/1.jpg" alt="">
 						</div>
 						<div class="box-content">
 							<h3>ABOUT US</h3>
@@ -35,7 +35,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="col-md-6">
 					<a href="" class="boxes">
 						<div class="single-page-box">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/3.jpg" alt="">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/2.jpg" alt="">
 						</div>
 						<div class="box-content">
 							<h3>Cars</h3>
@@ -59,7 +59,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="col-md-6">
 					<a href="" class="boxes">
 						<div class="single-page-box">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/3.jpg" alt="">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/4.jpg" alt="">
 						</div>
 						<div class="box-content">
 							<h3>Contact</h3>

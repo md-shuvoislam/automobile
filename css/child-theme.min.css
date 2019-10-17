@@ -116,7 +116,7 @@ a.hero-btn {
 }
 .single-page-box::after {
 	content: "";
-	background-image: url('http://localhost/automobile/wp-content/uploads/2019/10/arrow.png');
+	background-image: url('http://localhost/automobile/wp-content/uploads/2019/10/boxes-arrows.png');
 	width: 41px;
 	height: 28px;
 	position: absolute;
@@ -150,7 +150,7 @@ a.hero-btn {
 	font-family: 'Open Sans', sans-serif;
 }
 .home-newslatter-area h2 {
-	font-size: 48px;
+	font-size: 36px;
 	text-transform: uppercase;
 	font-weight: 600;
 }
@@ -210,13 +210,13 @@ a.hero-btn {
 	position: relative;
 }
 .mc4wp-form-fields::after {
-	content: "\f061";
-	font: normal normal normal 14px/1 FontAwesome;
+	content: "";
 	position: absolute;
-	color: #f4f4f4;
-	font-size: 22px;
-	bottom: 15px;
+	bottom: 13px;
 	right: 29%;
+	background-image: url('http://localhost/automobile/wp-content/uploads/2019/10/arrow-1.png');
+	width: 39px;
+	height: 26px;
 }
 .sidebar-three ul li a {
 	text-transform: uppercase;
@@ -242,8 +242,10 @@ a.hero-btn {
 	text-transform: uppercase;
 }
 .about-middle-section {
-	padding: 80px 0;
-	background: #F0F0F0;
+	padding: 80px 0 200px 0;
+    background: #F0F0F0;
+    margin-top: 40px;
+    position: relative;
 }
 .about-company-text h3 {
 	font-size: 32px;
@@ -368,7 +370,7 @@ div.wpcf7-response-output {
 }
 a.checkbox-readmore-link {
 	position: absolute;
-	bottom: 24.2%;
+	bottom: 25.6%;
 	right: 24%;
 	color: #272726;
 	font-weight: 700;
@@ -445,16 +447,17 @@ a.checkbox-readmore-link {
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	top: 38%;
+	bottom: 35%;
 }
 a.boxes {
 	text-decoration: none;
 }
 .car-box-content h3 {
-	font-size: 35px;
+	font-size: 28px;
 	color: #fff;
 	text-transform: uppercase;
 	line-height: 40px;
+	font-weight: 600;
 }
 .car-box-content i {
 	color: #fff;
@@ -463,4 +466,172 @@ a.boxes {
 }
 .cars-page-contact .col-md-4 {
 	padding: 0;
+}
+.home-newslatter-area.about-newslatter .mc4wp-form-fields::after {
+	right: 9%;
+}
+.cars-page-contact {
+    padding: 0 70px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -100px;
+}
+.cars-area {
+    padding: 0 25px;
+}
+.dxim_section.dxim_clearfix.dxim_layout_2_options_bar {
+    display: none;
+}
+h3.wpcs_filter_form_title {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+div#dxim_vehicle_filter_form_wrapper {
+    background: #2E2D2C;
+    color: #fff;
+    margin-top: 40px;
+    padding: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.dxim_filter label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+}
+a#dxim_filter_form_submit {
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+article.vehicle-on-archive .inner {
+    border: 1px solid #939393;
+    margin: 30px;
+    padding: 0px !important;
+    min-height: 800px;
+}
+.dxim_section {
+    margin-top: 0px !important;
+    padding-top: 80px !important;
+    border-top-width: 0px !important;
+    border-top-style: solid;
+}
+.vehicle_count h3 {
+    display: none !important;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff !important;
+    border: 1px solid #fff !important;
+    border-radius: 0 !important;
+    height: 40px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 40px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 40px !important;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+}
+div#dxim_vehicles_wrapper .button_wrapper {
+    display: none !important;
+}
+article.vehicle-on-archive h2 {
+    word-break: break-all;
+    font-size: 28px !important;
+    color: #2E2D2C;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.inner.dxim_clearfix.dxim_border_color a {
+    text-decoration: none;
+}
+.inner.dxim_clearfix.dxim_border_color .wpcs-col-2{
+	padding: 15px;
+}
+.inner.dxim_clearfix.dxim_border_color .price_wrapper{
+	padding: 15px;
+}
+.dxim_vehicle_specifics_list .field {
+    padding: 3px;
+    border-bottom-width: 0px !important;
+    border-bottom-style: solid;
+}
+.price_wrapper .price_big {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+.price_wrapper span.vat {
+    font-family: 'Open Sans', sans-serif;
+}
+.modula-items .figc p.description {
+    text-align: left;
+}
+.modula-item .figc .jtg-title {
+    text-align: left;
+    text-transform: uppercase;
+}
+.modula .modula-item.effect-pufrobo p {
+    bottom: 70% !important;
+    line-height: 1.5;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+    letter-spacing: 1px;
+}
+.modula .modula-item {
+    background-color: #825b2d !important;
+}
+.gallery-area {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.home-newslatter-area.about-newslatter p {
+    width: 100%;
+}
+#dxim_pagination > span, #dxim_pagination > a {
+    margin-left: 10px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+}
+#dxim_pagination{
+	display: table;
+	margin: 0 auto;
+}
+#dxim_pagination > span:first-child, #dxim_pagination > a:first-child {
+    margin-left: 10px;
+    color: black;
+    font-weight: 600;
+}
+span.page-numbers.current{
+	color: black;
+    font-weight: 600;
+}
+.left-menu .navbar-nav {
+    margin-left: auto;
+}
+.right-menu .navbar-nav {
+    margin-right: auto;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+}
+.wpcf7 input[type="submit"] {
+	width: unset;
+	margin-top: 20px;
 }

@@ -22,48 +22,48 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6">
-					<a href="" class="boxes">
+					<a href="<?php the_field('box_one_link_to_page'); ?>" class="boxes">
 						<div class="single-page-box">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/1.jpg" alt="">
+							<img src="<?php the_field('box_one_image'); ?>" alt="">
 						</div>
 						<div class="box-content">
-							<h3>ABOUT US</h3>
-							<p>Unsere Werte. <br>Unser Fortschritt. <br>Unser Unternehmen.</p>
+							<h3><?php the_field('box_one_title'); ?></h3>
+							<p><?php the_field('box_one_text'); ?></p>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-6">
-					<a href="" class="boxes">
+					<a href="<?php the_field('box_two_link_to_page'); ?>" class="boxes">
 						<div class="single-page-box">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/2.jpg" alt="">
+							<img src="<?php the_field('box_two_image'); ?>" alt="">
 						</div>
 						<div class="box-content">
-							<h3>Cars</h3>
-							<p>In unserem breitgefächerten Angebot <br> werden Sie mit Sicherheit fündig.</p>
+							<h3><?php the_field('box_two_title'); ?></h3>
+							<p><?php the_field('box_two_text'); ?></p>
 						</div>
 					</a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<a href="" class="boxes">
+					<a href="<?php the_field('box_three_link_to_page'); ?>" class="boxes">
 						<div class="single-page-box">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/3.jpg" alt="">
+							<img src="<?php the_field('box_three_image'); ?>" alt="">
 						</div>
 						<div class="box-content">
-							<h3>Cars</h3>
-							<p>Für Individuelle Nachfragen <br> sind wir stets offen</p>
+							<h3><?php the_field('box_three_title'); ?></h3>
+							<p><?php the_field('box_three_text'); ?></p>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-6">
-					<a href="" class="boxes">
+					<a href="<?php the_field('box_four_link_to_page'); ?>" class="boxes">
 						<div class="single-page-box">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/4.jpg" alt="">
+							<img src="<?php the_field('box_four_image'); ?>" alt="">
 						</div>
 						<div class="box-content">
-							<h3>Contact</h3>
-							<p>Wir beantworten gerne <br> Ihre Fragen</p>
+							<h3><?php the_field('box_four_title'); ?></h3>
+							<p><?php the_field('box_four_text'); ?></p>
 						</div>
 					</a>
 				</div>

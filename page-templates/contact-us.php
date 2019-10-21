@@ -17,22 +17,12 @@
 <?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>
 <div class="wrapper" id="hoem">
-    <div class="about-middle-section">
+    <div class="about-middle-section contactuspages">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="about-company-text">
-                        <h3>Unsere Werte.</h3>
-                        <p>are selling and negotiating now for a long time new high-quality cars. Owing to our long lasting experience in this branch it is possible for us to find the suitable vehicle for you with the best price at any time.
-
-						We set great value on
-
-						professional advice
-						experienced personnel
-						reliable transaction
-						satisfied customers
-
-						If these standards are important for you when buying a car, than you´re right here.</p>
+                       <?php the_field('unsere_werte_contact'); ?>
                     </div>
                 </div>
             </div>
@@ -75,28 +65,28 @@
         </div>
     </div>
     <div class="tabs-content">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="tab-content">
-                        <div class="tab-pane" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
                             <h2 class="tab-detail-title">Unsere Kontaktdaten</h2>
                             <div class="row">
                                 <div class="col-md-3">
                                     <i class="fa fa-map-marker"></i>
-                                    <p>1-A Automobile Vorbächstraße 21 77796 Mühlenbach</p>
+                                    <p><?php the_field('location'); ?></p>
                                 </div>
                                 <div class="col-md-3">
                                     <i class="fa fa-phone"></i>
-                                    <p>+49 - (0)7832/ 91390</p>
+                                    <p><?php the_field('telephone'); ?></p>
                                 </div>
                                 <div class="col-md-3">
                                     <i class="fa fa-envelope"></i>
-                                    <p>info@1-a-automobile.de</p>
+                                    <p><?php the_field('email'); ?></p>
                                 </div>
                                 <div class="col-md-3">
                                     <i class="fa fa-life-ring"></i>
-                                    <p>www.1-a-automobile.de</p>
+                                    <p><?php the_field('web'); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +95,7 @@
                             <?php echo do_shortcode('[contact-form-7 id="7" title="Contact form 1"]'); ?>
                         </div>
                         <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.534298975426!2d90.42364631536283!3d23.763980894173418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c789ec66c97d%3A0x2f16afa340df57a2!2sA-WEB!5e0!3m2!1sen!2sbd!4v1571123453659!5m2!1sen!2sbd" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                            <?php echo do_shortcode('[wpgmza id="1"]'); ?>
                         </div>
                     </div>
                 </div>

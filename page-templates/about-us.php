@@ -18,22 +18,12 @@ $container = get_theme_mod( 'understrap_container_type' );
   <?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>
 <div class="wrapper" id="hoem">
-	<div class="about-middle-section">
+	<div class="about-middle-section aboutuspage">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="about-company-text">
-						<h3>Unsere Werte.</h3>
-						<p>are selling and negotiating now for a long time new high-quality cars. Owing to our long lasting experience in this branch it is possible for us to find the suitable vehicle for you with the best price at any time.
-
-						We set great value on
-
-						professional advice
-						experienced personnel
-						reliable transaction
-						satisfied customers
-
-						If these standards are important for you when buying a car, than you´re right here.</p>
+					    <?php the_field('unsere_werte'); ?>
 					</div>
 				</div>
 			</div>
@@ -66,12 +56,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="home-newslatter-area about-newslatter">
 		<div class="container">
 			<div class="row text-center">
-				<div class="col-md-6">
+				<div class="col-lg-6 col-md-12">
 					<h2>Kontaktformular</h2>
 					<p>Bei Fragen oder Anregungen sind wir für sie jederzeit erreichbar.</p>
 					<?php echo do_shortcode('[mc4wp_form id="41"]'); ?>
 				</div>
-				<div class="col-md-6">
+				<div class="col-lg-6 col-md-12">
 					<h2>Unser Newsletter</h2>
 					<p>Mit unserem Newsletter erhalten Sie immer die aktuellen Angebote und Neuigkeiten.</p>
 					<?php echo do_shortcode('[mc4wp_form id="41"]'); ?>
